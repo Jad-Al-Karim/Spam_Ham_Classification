@@ -1,0 +1,16 @@
+## R
+.Rhistory
+.RData
+.Rproj.user/
+
+## Python
+__pycache__/
+*.py[cod]
+env/
+.env/
+.venv/
+.vscode/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
