@@ -53,3 +53,12 @@ Rscript "spam ham dataset making.R"
 
 **Author**: Jad Al Karim
 
+**Results**
+- **Model**: Voting Ensemble (ComplementNB + Calibrated LinearSVC + LogisticRegression), threshold tuned on validation to 0.5.
+- **Accuracy**: 0.9848
+- **Precision**: 0.9902
+- **Recall**: 0.9793
+- **F1**: 0.9847
+- **AUC-ROC**: 0.9977
+- **Executed notebook**: [executed.ipynb](executed.ipynb)
+
