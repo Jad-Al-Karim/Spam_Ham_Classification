@@ -33,6 +33,8 @@ pip install -r requirements.txt
 
 3. (Optional) Re-run preprocessing (if you want to regenerate `combined.csv`):
 
+**Requires**: R (recommended >= 4.0) to run the preprocessing script. Install R from https://cran.r-project.org/ and ensure `Rscript` is available on your PATH.
+
 ```bash
 Rscript "spam ham dataset making.R"
 ```
